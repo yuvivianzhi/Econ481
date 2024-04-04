@@ -1,22 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 #Econ 481 HW1
 #Yuzhi Fu
 
 
-# In[ ]:
-
-
 def github() -> str:
-    return 
-
-
-# In[1]:
-
+    return ”https://github.com/yuvivianzhi/Econ481/edit/main/Econ481_HW1.py
 
 #Exercise 2
 def evens_and_odds(n: int) -> dict:
@@ -31,10 +18,6 @@ def evens_and_odds(n: int) -> dict:
             """if/else"""
     return{"evens": evens_sum, "odds": odds_sum}
 print(evens_and_odds(4)) 
-
-
-# In[2]:
-
 
 #Exercise 3
 from typing import Union
@@ -56,10 +39,6 @@ print(time_diff('2024-04-03', '2024-04-05', 'float'))
 print(time_diff('2024-04-03', '2024-04-05', 'string'))
 
 
-
-# In[129]:
-
-
 #Exercise 4
 in_list=['a', 'b', 'c']
 """First define the in_list"""
@@ -69,9 +48,6 @@ def reverse(in_list: list) -> list:
     return reversed_list
 
 print(reverse(in_list))
-
-
-# In[3]:
 
 
 #Excercise 5
